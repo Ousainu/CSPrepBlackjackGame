@@ -209,7 +209,7 @@ function blackJack() {
             } else {
                 console.log('Your hand is :', hand, ' -  sum :', sumTotal(hand))
                 console.log('Dealer is :', censor(dealer), ' -  sum : ? ')
-                console.log('Do you hit, stay, or run?')
+                console.log('Do you hit, stay, doubledown, or run?')
             }
     }
 }
